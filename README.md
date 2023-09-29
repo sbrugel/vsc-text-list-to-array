@@ -6,7 +6,7 @@ My first extension. This extension adds a command which converts comma or newlin
 
 Highlight a block of text to convert it to an array, with each item separated by commas/newlines as its own item.
 
-[img](https://i.imgur.com/phB8Xks.gif)
+![img](https://i.imgur.com/phB8Xks.gif)
 
 ## Release Notes
 
