@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "text-list-to-array.helloWorld",
-        "title": "Hello World"
+        "command": "text-list-to-array.convertToArray",
+        "title": "Convert text to array"
       }
     ]
   },
