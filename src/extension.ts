@@ -23,7 +23,7 @@ export function activate(context: vscode.ExtensionContext) {
 				if (splitAtNewline.length > 1) {
 					modifiedText = `[${splitAtNewline.map((item: string) => `'${strip(item)}'`).join(", ")}]`;
 				} else {
-					modifiedText = `[${document.getText(selection).split(",").map((item: string) => `'${strip(item).replace(",", "")}'`).join(", ")}']`;
+					modifiedText = `[${document.getText(selection).split(",").map((item: string) => `'${strip(item).replace(",", "")}'`).join(", ")}]`;
 				}
 
 				editor.edit(editBuilder => {
